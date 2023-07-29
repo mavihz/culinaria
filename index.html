@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culinária Descomplicada   </title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="reset.css">
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    
+
+    <header class="cabeçalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu" class="container__rotulo">
+                <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Receitas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Artigos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livro de Culinária</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Marcas Parceiras</a>
+                </li>
+               
+            </ul>
+            <img src= "https://cdn-icons-png.flaticon.com/512/3003/3003695.png" width="40px" alt="Logo da Alurabooks" class="container__imagem">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Culinária</b>Descomplicada 👨‍🍳</h1>
+          
+        </div>
+
+        <ul class="opções">
+            <input type="checkbox" id="opções-menu" class="opções__botão">
+            <label for="opções-menu" class="opções__rotulo">
+                <li class="opções__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Receitas</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Artigos</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Livro de Culinária</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Marcas Parceiras</a>
+                </li>
+            </ul>
+
+            <li class="opções__item"><a href="#" class="opções__link">Favoritos </a></li>
+         
+        </ul>
+
+        <div class="container">
+            <a href="#"><img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Favoritos.svg" alt="Meus favoritos"
+                    class="container__imagem container__imagem-transparente"></a>
+           
+            <a href="#" class="container__link">
+                <img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Usuario.svg" alt="Meu perfil" class="container__imagem">
+                <p class="container__texto">Meu perfil</p>
+            </a>
+        </div>
+    </header>
+    <section class="banner">
+        <h2 class="banner__titulo">O que vamos comer hoje?</h2> <p><img src="https://www.icegif.com/wp-content/uploads/chef-pusheen-icegif.gif" height="140px" width="130px"></p>
+        <p class="banner__texto">Bem-Vindo ao Culinária Descomplicada</p>
+       
+        <input type="search" class="banner__pesquisa" placeholder="Procure uma receita!">
+    </section>
+    <section class="carrossel">
+        
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                 <ul class="tópicos__lista"></ul>
+                    <div class="swiper-slide"> 
+                       
+                        <li class="tópicos__item"> <img src="https://thumbs.dreamstime.com/b/pequeno-almo%C3%A7o-r%C3%A1pido-vertical-19993634.jpg" class="fotitas"
+                            alt="Café da Manhã"> <a href="#" class="tópicos__link">Desjejum</a> </li></div>
+
+
+                    <div class="swiper-slide">
+                        <li class="tópicos__item"><img src="https://img.freepik.com/fotos-premium/almoco-saudavel-torrada-com-ovos-poche-pedacos-de-abacate-folhas-de-rucula-mizuna-e-acelga-e-tomate-cereja-em-um-prato-sobre-a-mesa-servida-dieta-flexetaria-vista-superior-e-vertical-copie-o-espaco_107288-4294.jpg"
+                             class="fotitas"> <a href="#" class="tópicos__link">Almoço</a> </li></div>
+                    <div class="swiper-slide">
+                        <li class="tópicos__item"><img src="https://thumbs.dreamstime.com/b/jantar-da-fam%C3%ADlia-no-vertical-branco-da-tabela-82880430.jpg" class="fotitas"><a href="#" class="tópicos__link">Jantar</a></li></div>
+                    <div class="swiper-slide"> <li class="tópicos__item"><img src="data:image/jpeg;base64,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" class="fotitas"><a href="#" class="tópicos__link">Lanches</a></li></div>
+                    <div class="swiper-slide"> <li class="tópicos__item"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo-0NC7Jgv0GAb9X4xSH-XVEqIvtWBzc6EI3DmRLBbeH1ll92__yUDujgceyfK4Mq0ibg&usqp=CAU" class="fotitas"> <a href="#" class="tópicos__link">Sobremesas</a> </li></div>
+                    
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </ul>
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <h3 class="descrição__titulo">Recomendações</h3>
+                        <h2 class="descrição__titulo-livro">99,7% das pessoas gostaram</h2>
+                        <p class="descrição__texto">Escondidinho de Frango com bacon</p>
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="https://i.ytimg.com/vi/sdbDjIAwQis/maxresdefault.jpg" width="40%" height="35%" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Favoritos.svg" alt="Favoritar livro"></li>
+                        
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Veja Mais Aqui!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carrossel">
+                <h2 class="carrossel__titulo"> <img src="https://media3.giphy.com/media/OuM0GDkXGFYvivyf62/giphy.gif?cid=6c09b952w7lo5c7912uw009t32y2dvbqkqs07dq2rjs3jfen&ep=v1_stickers_related&rid=giphy.gif&ct=s" height="170px" width="230px"></h2>
+        <!-- Slider main container -->
+        <div class="carrossel__container">
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><li class="tópicos__item"><img src="https://previews.123rf.com/images/lenyvavsha/lenyvavsha1602/lenyvavsha160200238/52326683-strogonoff-de-carne-delicioso-com-cogumelos-e-close-up-de-arroz-em-um-prato-na-mesa-vis%C3%A3o-vertical.jpg"
+                           > <a href="#" class="tópicos__link">Strogonoff</a></li>
+                        </div>
+                    <div class="swiper-slide"><li class="tópicos__item"><img src="https://media.istockphoto.com/id/1460577635/pt/foto/honey-bread.jpg?s=612x612&w=0&k=20&c=HzCRbhfjLPbgSumjQeHw68DcBz6UhAEHo7egPYxXX1U="
+                           ><a href="#" class="tópicos__link">Pão de Mel</a></li></div>
+                    <div class="swiper-slide"><li class="tópicos__item"><img src="https://www.receitasdemae.com.br/wp-content/uploads/2011/06/bolinha-de-queijo.jpg"
+                           ><a href="#" class="tópicos__link">Bolinha de Queijo</a></li></div>
+                    <div class="swiper-slide"><li class="tópicos__item"><img src="https://img.freepik.com/fotos-premium/croquetes-de-batata-pure-de-batatas-bolas-a-milanesa-e-fritas-fundo-escuro-vista-superior_89816-39964.jpg" ><a href="#" class="tópicos__link">Croquet de Batata</a></li></div>
+                    <div class="swiper-slide"><li class="tópicos__item"><img src="https://img.freepik.com/fotos-premium/ragu-a-bolonhesa-molho-italiano-de-carne-moida-com-macarrao-espaguete-e-queijo-parmesao-no-garfo-imagem-vertical_114941-1600.jpg?w=2000" ><a href="#" class="tópicos__link">Ragu à Bolonhesa</a></li></div>
+                    <div class="swiper-slide"><li class="tópicos__item"><img src="https://static.vecteezy.com/ti/fotos-gratis/p2/711277-pizza-comida-italiana-com-salame-e-tomate-vertical-foto.jpg" ><a href="#" class="tópicos__link">Pizza de Frigideira</a></li></div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+
+            <div class="card">
+                <!-- 1º linha -->
+                <div class="card__descrição">
+                    <!-- 1º coluna -->
+                    <div class="descrição">
+                        <img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+                        <h3 class="descrição__titulo">Comida do Mês</h3>
+                        <h2 class="descrição__titulo-livro">Pé de Moça</h2>
+                        <p class="descrição__texto">Já que estamos no clima de festa junina 🎊
+                        </p>
+                       
+                    </div>
+                    <!-- 2º coluna -->
+                    <img src="https://static.stealthelook.com.br/wp-content/uploads/2022/06/receitas-de-festa-junina-pra-voce-testar-em-casa-pe-de-moca-20220614135856.jpg" width="160px" height="170px" class="descrição__imagem">
+                </div>
+
+                <!-- 2º linha -->
+                <div class="card__botões">
+                    <!-- 1º coluna -->
+                    <ul class="botões">
+                        <li class="botões__item"><img src="https://raw.githubusercontent.com/alura-cursos/alurabooks/4db5a79bb8aaf242faccfbe63a1954b8fbc5c9ec/img/Favoritos.svg" alt="Favoritar livro"></li>
+
+                    </ul>
+                    <!-- 2º coluna -->
+                    <a href="#" class="botões__ancora">Saiba mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tópicos">
+        <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+        <ul class="tópicos__lista">
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Tortas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Bolos</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Massas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Bebidas</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Fitness</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Carnes</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Aves</a>
+            </li>
+            <li class="tópicos__item">
+                <a href="#" class="tópicos__link">Saladas</a>
+            </li>
+        </ul>
+    </section>
+
+    <section class="contato">
+        <div class="contato__descrição">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de receitas, novos livros culinários, vídeo aulas e outros.</p>
+        </div>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    <hr/>
+
+  
+
+        
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
+</body>
+
+</html>
